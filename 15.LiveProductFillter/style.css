@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    height: 100vh;
+    background: #dadada;
+}
+
+h1{
+    margin: 20px;
+    font-weight: 600;
+}
+
+.container{
+    width: 400px;
+    height: 600px;
+    background: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    overflow-y: scroll;
+}
+
+.search{
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 0 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+
+.search input{
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.search i{
+    color: #333;
+    padding: 5px;
+}
+
+.product{
+    display: flex;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+.product img{
+    width: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.product .info{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product .name, .product .price{
+    font-size: 20px;
+}
+
+.product .name{
+    font-weight: bold;
+}
+
+.product:hover{
+    background: #dadada;
+}
+
+.hide{
+    display: none;
+}
